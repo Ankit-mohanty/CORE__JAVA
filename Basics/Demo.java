@@ -1,3 +1,5 @@
+package Basics;
+
 class Computer {
     public void playMusic() {// if we use "VOID" that means this method not given any return.
         System.out.println("Play Music");
@@ -15,7 +17,7 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        Computers com = new Computers();
+        Computer com = new Computer();
         com.playMusic();
 
         String str = com.getPen(0);

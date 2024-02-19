@@ -15,7 +15,7 @@ public class AnnonymousInnnerclass {
 
             public void show() {
                 System.out.println("Showing..........");// this is called annonymous inner class .
-            }
+            }// Basically annonumous innerclass is class define by JVM.
         };
     rahul.show();
     }
