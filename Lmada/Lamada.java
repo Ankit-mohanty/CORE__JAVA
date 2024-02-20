@@ -3,14 +3,11 @@ package Lmada;
 @FunctionalInterface
 interface A {
     void show(int i);
-
-
 }
 
 interface B {
     void show1();
 }
-
 
 public class Lamada {
     public static void main(String[] args) {
