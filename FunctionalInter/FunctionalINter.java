@@ -3,7 +3,7 @@ package FunctionalInter;
 @FunctionalInterface// after put this we can not define any other method in it
 interface A {//this is called functional interface but it's better to identify.
 
-    void show();
+    void show();/// The another name of functional interface is SAM(Single Abstact Method)
 }
 
 /*class B implements A {
