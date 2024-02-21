@@ -3,8 +3,6 @@ package Lmada;
 @FunctionalInterface
 interface A {
     void show(int i);
-
-
 }
 
 @FunctionalInterface
@@ -12,11 +10,14 @@ interface B {
     void show1();
 }
 
+<<<<<<< HEAD
 @FunctionalInterface                     //(for line transfter =Ctrl+shift+arrowbutton)
 interface C {
     int add(int i, int j);
 }
 
+=======
+>>>>>>> 6db656b1fff74047978dee118ff36aed957d9da7
 public class Lamada {
     public static void main(String[] args) {
 
